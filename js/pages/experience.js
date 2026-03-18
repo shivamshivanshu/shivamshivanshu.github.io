@@ -1,7 +1,7 @@
 const content = [
   {
     company: 'IMC Trading',
-    role: 'Software Developer',
+    role: 'Execution Software Developer',
     period: 'July 2024 — Present',
     bullets: [],
   },
