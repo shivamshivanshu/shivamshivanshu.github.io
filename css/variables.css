@@ -1,0 +1,61 @@
+:root {
+  /* Colors — terminal green on black */
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-tertiary: #111111;
+  --bg-card: #0a0a0a;
+  --bg-card-hover: #111111;
+  --bg-nav: rgba(0, 0, 0, 0.95);
+
+  --text-primary: #b0b0b0;
+  --text-secondary: #808080;
+  --text-muted: #555555;
+  --text-heading: #e0e0e0;
+
+  --accent: #1db954;
+  --accent-dim: rgba(29, 185, 84, 0.1);
+  --accent-hover: #1ed760;
+
+  --border-light: #2a2a2a;
+
+  /* Typography — monospace everywhere */
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.75rem;
+  --text-4xl: 2.25rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  /* Layout */
+  --max-width: 860px;
+  --nav-height: 50px;
+  --hero-max-width: 580px;
+  --grid-min-card: 280px;
+  --contact-label-width: 80px;
+
+  /* Breakpoint — CSS vars can't be used in @media, so update
+     the 600px value in components.css and layout.css manually */
+  --breakpoint-mobile: 600px;
+
+  /* Borders */
+  --border-width: 1px;
+  --border-width-thick: 2px;
+
+  /* Misc */
+  --transition: 150ms ease;
+  --font-size-root: 15px;
+}
