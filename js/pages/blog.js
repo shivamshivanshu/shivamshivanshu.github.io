@@ -13,7 +13,8 @@ const content = {
       title: "Developer Productivity Workflow",
       date: "2026-06-23",
       summary: "What, Why and How of Developer Workflow and Productivity",
-    }
+    },
+  ],
 };
 
 export function renderBlog() {
