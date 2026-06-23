@@ -2,18 +2,18 @@ export class Router {
   constructor(routes) {
     this.routes = routes;
     this._onHashChange = this._onHashChange.bind(this);
-    window.addEventListener('hashchange', this._onHashChange);
+    window.addEventListener("hashchange", this._onHashChange);
   }
 
   start() {
     if (!window.location.hash) {
-      window.location.hash = '#/';
+      window.location.hash = "#/";
     }
     this._onHashChange();
   }
 
   _onHashChange() {
-    const hash = window.location.hash || '#/';
+    const hash = window.location.hash || "#/";
     const path = hash.slice(1); // remove '#'
 
     for (const { pattern, handler } of this.routes) {
@@ -25,7 +25,7 @@ export class Router {
     }
 
     // Fallback: redirect to home
-    window.location.hash = '#/';
+    window.location.hash = "#/";
   }
 
   static route(pattern, handler) {

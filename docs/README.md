@@ -64,17 +64,17 @@ Add a key to `content` (e.g. `twitter: 'https://...'`), then add a matching line
 
 ## Quick Reference
 
-| Task | File to edit |
-|------|-------------|
-| Site name / footer | `js/config.js` |
-| Nav links | `js/config.js` |
-| Colors / theme | `css/variables.css` |
-| Home text | `js/pages/home.js` |
-| Bio / skills | `js/pages/about.js` |
-| Work history | `js/pages/experience.js` |
-| Project cards | `js/pages/projects.js` |
-| Blog posts | `js/pages/blog.js` + `content/blog/<slug>.md` |
-| Contact links | `js/pages/contact.js` |
+| Task               | File to edit                                  |
+| ------------------ | --------------------------------------------- |
+| Site name / footer | `js/config.js`                                |
+| Nav links          | `js/config.js`                                |
+| Colors / theme     | `css/variables.css`                           |
+| Home text          | `js/pages/home.js`                            |
+| Bio / skills       | `js/pages/about.js`                           |
+| Work history       | `js/pages/experience.js`                      |
+| Project cards      | `js/pages/projects.js`                        |
+| Blog posts         | `js/pages/blog.js` + `content/blog/<slug>.md` |
+| Contact links      | `js/pages/contact.js`                         |
 
 ## Adding a New Page
 

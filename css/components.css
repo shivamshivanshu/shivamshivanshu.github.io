@@ -29,7 +29,7 @@ nav {
 }
 
 .nav-logo::before {
-  content: '> ';
+  content: "> ";
   color: var(--text-muted);
 }
 
@@ -61,12 +61,12 @@ nav {
 }
 
 .nav-links a.active::before {
-  content: '[';
+  content: "[";
   color: var(--text-muted);
 }
 
 .nav-links a.active::after {
-  content: ']';
+  content: "]";
   color: var(--text-muted);
 }
 
@@ -86,7 +86,9 @@ nav {
   width: 20px;
   height: 2px;
   background: var(--accent);
-  transition: transform var(--transition), opacity var(--transition);
+  transition:
+    transform var(--transition),
+    opacity var(--transition);
 }
 
 @media (max-width: 600px) {
@@ -107,7 +109,9 @@ nav {
     transform: translateY(-100%);
     opacity: 0;
     pointer-events: none;
-    transition: transform 300ms ease, opacity 300ms ease;
+    transition:
+      transform 300ms ease,
+      opacity 300ms ease;
   }
 
   .nav-links.open {
@@ -141,7 +145,7 @@ nav {
 }
 
 .hero-greeting::before {
-  content: '// ';
+  content: "// ";
   color: var(--text-muted);
 }
 
@@ -220,7 +224,7 @@ nav {
 }
 
 .card-title::before {
-  content: '> ';
+  content: "> ";
   color: var(--text-muted);
 }
 
@@ -256,11 +260,11 @@ nav {
 }
 
 .card-links a::before {
-  content: '[';
+  content: "[";
 }
 
 .card-links a::after {
-  content: ']';
+  content: "]";
 }
 
 .card-links a:hover {
@@ -275,7 +279,7 @@ nav {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -290,7 +294,7 @@ nav {
 }
 
 .timeline-item::before {
-  content: '+';
+  content: "+";
   position: absolute;
   left: calc(-1 * var(--space-xl) - 4px);
   top: 0;
@@ -330,7 +334,7 @@ nav {
 }
 
 .timeline-bullets li::before {
-  content: '- ';
+  content: "- ";
   color: var(--text-muted);
 }
 
@@ -346,7 +350,7 @@ nav {
 }
 
 .skills-group h3::before {
-  content: '~/';
+  content: "~/";
   color: var(--text-muted);
 }
 
@@ -405,7 +409,7 @@ nav {
 }
 
 .blog-post h2::before {
-  content: '## ';
+  content: "## ";
   color: var(--text-muted);
 }
 
@@ -415,7 +419,7 @@ nav {
 }
 
 .blog-post h3::before {
-  content: '### ';
+  content: "### ";
   color: var(--text-muted);
 }
 
@@ -435,7 +439,7 @@ nav {
 }
 
 .blog-post li::before {
-  content: '- ';
+  content: "- ";
   color: var(--text-muted);
 }
 
@@ -480,7 +484,7 @@ nav {
 }
 
 .contact-label::before {
-  content: '$ ';
+  content: "$ ";
   color: var(--text-muted);
 }
 

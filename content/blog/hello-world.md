@@ -11,7 +11,7 @@ I've spent years staring at flame graphs, reading disassembly, and arguing about
 This blog will cover topics like:
 
 - **Low-latency patterns** — lock-free data structures, memory allocators, and the art of keeping things off the heap
-- **Networking** — kernel bypass, DPDK, and what happens when you really need that packet *now*
+- **Networking** — kernel bypass, DPDK, and what happens when you really need that packet _now_
 - **Profiling & benchmarking** — how to measure things properly and avoid the many ways microbenchmarks can lie to you
 - **C++ deep dives** — template metaprogramming, undefined behavior, and the occasional love letter to `constexpr`
 
@@ -19,9 +19,9 @@ This blog will cover topics like:
 
 I believe in:
 
-> "Premature optimization is the root of all evil" — but knowing *when* optimization is premature requires understanding the machine.
+> "Premature optimization is the root of all evil" — but knowing _when_ optimization is premature requires understanding the machine.
 
-Performance isn't about clever tricks. It's about understanding your hardware, your data, and your access patterns. The best optimization is often the simplest one — the one that makes the code *obviously* fast rather than *cleverly* fast.
+Performance isn't about clever tricks. It's about understanding your hardware, your data, and your access patterns. The best optimization is often the simplest one — the one that makes the code _obviously_ fast rather than _cleverly_ fast.
 
 ## What's Next
 

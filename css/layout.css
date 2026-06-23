@@ -9,7 +9,8 @@ main {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: calc(var(--nav-height) + var(--space-3xl)) var(--space-lg) var(--space-3xl);
+  padding: calc(var(--nav-height) + var(--space-3xl)) var(--space-lg)
+    var(--space-3xl);
 }
 
 .section {
@@ -23,7 +24,7 @@ main {
 }
 
 .section-title::before {
-  content: '$ ';
+  content: "$ ";
   color: var(--text-muted);
 }
 
@@ -46,11 +47,16 @@ footer {
 
 @media (max-width: 600px) {
   main {
-    padding: calc(var(--nav-height) + var(--space-xl)) var(--space-md) var(--space-xl);
+    padding: calc(var(--nav-height) + var(--space-xl)) var(--space-md)
+      var(--space-xl);
   }
 
-  h1 { font-size: var(--text-3xl); }
-  h2 { font-size: var(--text-2xl); }
+  h1 {
+    font-size: var(--text-3xl);
+  }
+  h2 {
+    font-size: var(--text-2xl);
+  }
 
   .section-title {
     font-size: var(--text-2xl);
